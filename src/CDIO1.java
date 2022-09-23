@@ -8,10 +8,10 @@ public class CDIO1 {
 
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Skriv spiller1 navn");
+        System.out.println("Skriv navnet på første spiller");
         player1.setNavn(sc.nextLine());
 
-        System.out.println("Skriv spiller2 navn");
+        System.out.println("Skriv navnet på anden spiller");
         player2.setNavn(sc.nextLine());
         while (true) {
 
