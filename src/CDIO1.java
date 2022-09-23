@@ -26,6 +26,11 @@ public class CDIO1 {
             player1.addScore(Dice1, Dice2);
             System.out.println(player1.getNavn() + " din score er nu " + player1.getScore());
 
+            if (player1.score >= 40) {
+                System.out.println(player1.getNavn() + " du har vundet");
+                break;
+
+            }
 
             System.out.println(player2.getNavn() + " kast terningerne");
             sc.nextLine();
@@ -34,6 +39,8 @@ public class CDIO1 {
             sumOfDice = Dice1 + Dice2;
             System.out.println(Dice1);
             System.out.println(Dice2);
+
+
 
             player2.addScore(Dice1, Dice2);
             System.out.println(player2.getNavn() + " din score er nu " + player2.getScore());
