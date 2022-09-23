@@ -8,10 +8,10 @@ public class CDIO1 {
 
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Skriv spiller1 navn");
+        System.out.println("Skriv navnet på første spiller");
         player1.setNavn(sc.nextLine());
 
-        System.out.println("Skriv spiller2 navn");
+        System.out.println("Skriv navnet på anden spiller");
         player2.setNavn(sc.nextLine());
         while (true) {
 
@@ -26,6 +26,11 @@ public class CDIO1 {
             player1.addScore(Dice1, Dice2);
             System.out.println(player1.getNavn() + " din score er nu " + player1.getScore());
 
+            if (player1.score >= 40) {
+                System.out.println(player1.getNavn() + " du har vundet");
+                break;
+
+            }
 
             System.out.println(player2.getNavn() + " kast terningerne");
             sc.nextLine();
@@ -34,6 +39,8 @@ public class CDIO1 {
             sumOfDice = Dice1 + Dice2;
             System.out.println(Dice1);
             System.out.println(Dice2);
+
+
 
             player2.addScore(Dice1, Dice2);
             System.out.println(player2.getNavn() + " din score er nu " + player2.getScore());
