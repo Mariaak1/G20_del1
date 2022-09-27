@@ -1,6 +1,11 @@
 public class Player {
-  String navn;
-  int score;
+  private String navn;
+  private int score;
+
+  public Player(String navn,int score){
+    this.navn=navn;
+    this.score=score;
+  }
 
   public void addScore(int dice1, int dice2) {
     int sum = dice1 + dice2;

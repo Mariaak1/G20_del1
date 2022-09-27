@@ -1,32 +1,35 @@
 import java.lang.Math;
 import java.util.Scanner;
 
-public class CDIO1 {
+public class Dicegame {
     static void startNySpil() {
-        Player player1 = new Player();
-        Player player2 = new Player();
+
+        Die die1=new Die();
+        Die die2= new Die();
 
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Skriv navnet på første spiller");
-        player1.setNavn(sc.nextLine());
+        Player player1 = new Player(sc.nextLine(),0);
 
         System.out.println("Skriv navnet på anden spiller");
-        player2.setNavn(sc.nextLine());
+        Player player2 = new Player(sc.nextLine(),0);
         while (true) {
 
             System.out.println(player1.getNavn() + " kast terningerne");
             sc.nextLine();
-            int Dice1 = 1 + (int) (Math.random() * 6);
-            int Dice2 = 1 + (int) (Math.random() * 6);
-            int sumOfDice = Dice1 + Dice2;
-            System.out.println(Dice1);
-            System.out.println(Dice2);
+            die1.rollDie();
+            die2.rollDie();
 
-            player1.addScore(Dice1, Dice2);
+
+            int sumOfDice = die1.getFaceValue() + die2.getFaceValue();
+            System.out.println(die1.getFaceValue());
+            System.out.println(die2.getFaceValue());
+
+            player1.addScore(die1.getFaceValue(), die2.getFaceValue() );
             System.out.println(player1.getNavn() + " din score er nu " + player1.getScore());
 
-            if (player1.score >= 40) {
+            if (player1.getScore() >= 40) {
                 System.out.println(player1.getNavn() + " du har vundet");
                 break;
 
@@ -34,20 +37,20 @@ public class CDIO1 {
 
             System.out.println(player2.getNavn() + " kast terningerne");
             sc.nextLine();
-            Dice1 = 1 + (int) (Math.random() * 6);
-            Dice2 = 1 + (int) (Math.random() * 6);
-            sumOfDice = Dice1 + Dice2;
-            System.out.println(Dice1);
-            System.out.println(Dice2);
+            die1.rollDie();
+            die2.rollDie();
+            sumOfDice = die1.getFaceValue()+ die2.getFaceValue();
+            System.out.println(die1.getFaceValue());
+            System.out.println(die2.getFaceValue());
 
 
 
-            player2.addScore(Dice1, Dice2);
+            player2.addScore(die1.getFaceValue(), die2.getFaceValue());
             System.out.println(player2.getNavn() + " din score er nu " + player2.getScore());
 
-            if (player1.score >= 40) {
+            if (player1.getScore() >= 40) {
                 System.out.println(player1.getNavn() + " du har vundet");
-            } else if (player2.score >= 40) {
+            } else if (player2.getScore() >= 40) {
                 System.out.println(player2.getNavn() + " du har vundet");
 
                 break;
