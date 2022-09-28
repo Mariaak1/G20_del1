@@ -1,0 +1,105 @@
+[33mcommit d1ab2394ccbdb8bc975fe302fba4a56d5c7f743e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: 453f626 68202e6
+Author: Mariaak1 <113905587+Mariaak1@users.noreply.github.com>
+Date:   Fri Sep 23 11:43:22 2022 +0200
+
+    DONE
+    Hejsa
+
+[33mcommit 453f626a392bfd83ead02aca05441506e5a9691b[m
+Author: Mariaak1 <113905587+Mariaak1@users.noreply.github.com>
+Date:   Fri Sep 23 11:38:16 2022 +0200
+
+    DONE
+    Hejsa
+
+[33mcommit 73023065a93c8474e55737e320bb52936d4d822f[m
+Author: Mariaak1 <113905587+Mariaak1@users.noreply.github.com>
+Date:   Fri Sep 23 11:34:11 2022 +0200
+
+    Den ER FÆRDIG mappe player
+
+[33mcommit 68202e677e59f947b322cec8d0bc53fe1ce0039b[m
+Author: MichelleMwamba <s224573@student.dtu.dk>
+Date:   Fri Sep 23 11:30:09 2022 +0200
+
+    navet på hver spiller
+
+[33mcommit 5f8de973951606f6df74494290f00755604eff98[m
+Merge: 6a87b1a 1712b32
+Author: MichelleMwamba <s224573@student.dtu.dk>
+Date:   Fri Sep 23 11:24:49 2022 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 1712b329c43901ed2d8278e1aa47cdec6176a370[m
+Author: Mariaak1 <113905587+Mariaak1@users.noreply.github.com>
+Date:   Fri Sep 23 11:24:05 2022 +0200
+
+    Den ER FÆRDIG mappe player
+
+[33mcommit 6a87b1a825fae434a9b58a4a6bfe0b99f176b2ad[m
+Merge: 9fa7528 f40068c
+Author: MichelleMwamba <s224573@student.dtu.dk>
+Date:   Fri Sep 23 11:23:33 2022 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit f40068c85f3e9773c8582de82f274ef92cecc758[m
+Author: Mariaak1 <113905587+Mariaak1@users.noreply.github.com>
+Date:   Fri Sep 23 11:23:25 2022 +0200
+
+    Den ER FÆRDIG
+
+[33mcommit 2e334776e03494ad3c32bfd76c06101282782f26[m
+Author: Mariaak1 <113905587+Mariaak1@users.noreply.github.com>
+Date:   Thu Sep 22 20:18:08 2022 +0200
+
+    anden metode for dice
+
+[33mcommit 9fa75284053a291c03cfff564b246503c1ae282d[m
+Merge: bfd0d7a 4dc2141
+Author: MichelleMwamba <s224573@student.dtu.dk>
+Date:   Thu Sep 22 15:48:44 2022 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 4dc21410b8da90c40098acc83703630b60d38fa5[m
+Author: Mariaak1 <113905587+Mariaak1@users.noreply.github.com>
+Date:   Thu Sep 22 15:48:05 2022 +0200
+
+    første omgang
+
+[33mcommit 8d8d58a6284c6a5fb3b22cf2f5bac734a1b82a05[m
+Author: Mariaak1 <113905587+Mariaak1@users.noreply.github.com>
+Date:   Mon Sep 19 16:46:34 2022 +0200
+
+    2 terninger
+
+[33mcommit bfd0d7a54e044056f36a0df6257c8b79a6fc112d[m
+Merge: 094e0ec d3a3288
+Author: MichelleMwamba <s224573@student.dtu.dk>
+Date:   Mon Sep 19 16:29:20 2022 +0200
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       .idea/vcs.xml
+
+[33mcommit 094e0ecd493a43338bddd1b7e37db5fd3d727a59[m
+Author: MichelleMwamba <s224573@student.dtu.dk>
+Date:   Mon Sep 19 16:28:27 2022 +0200
+
+    commit
+
+[33mcommit d3a32889ba8fac8091cdc2672467fb5b0f536584[m
+Author: Mariaak1 <113905587+Mariaak1@users.noreply.github.com>
+Date:   Mon Sep 19 16:27:32 2022 +0200
+
+    Random
+
+[33mcommit 49a8a2674282f4064545b90700e081dc34c96939[m
+Author: Mariaak1 <113905587+Mariaak1@users.noreply.github.com>
+Date:   Mon Sep 19 15:57:04 2022 +0200
+
+    Initial commit
