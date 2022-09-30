@@ -1,3 +1,5 @@
+package spil;
+
 public class Player {
   private String navn;
   private int score;

@@ -1,3 +1,5 @@
+package spil;
+
 public class Die {
  private int faceValue;
 
